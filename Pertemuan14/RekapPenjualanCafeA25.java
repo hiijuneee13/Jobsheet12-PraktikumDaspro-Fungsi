@@ -6,7 +6,7 @@ public class RekapPenjualanCafeA25 {
 
     static String[] menu = {"Kopi", "Teh", "Es Kelapa Muda", "Roti Bakar", "Gorengan"};
 
-    // Input data ke array 2D 5x7
+    // Input data ke array 2D 5x7.
     public static void inputData(int[][] data) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class RekapPenjualanCafeA25 {
         }
     }
 
-    // Menampilkan seluruh data penjualan
+    // Menampilkan seluruh data penjualan.
     public static void tampilkanTabel(int[][] data) {
         System.out.println("\n=== DATA PENJUALAN ===");
 
@@ -36,7 +36,7 @@ public class RekapPenjualanCafeA25 {
         }
     }
 
-    // Total tertinggi
+    // Total tertinggi.
     public static void tampilkanTertinggi(int[][] data) {
         int maxTotal = 0;
         int indeksMenu = 0;
@@ -56,7 +56,7 @@ public class RekapPenjualanCafeA25 {
         System.out.println(menu[indeksMenu] + " = " + maxTotal);
     }
 
-    // Rata-rata
+    // Rata-rata.
     public static void tampilkanRataRata(int[][] data) {
         System.out.println("\nRata-rata penjualan tiap menu:");
 
@@ -72,7 +72,7 @@ public class RekapPenjualanCafeA25 {
         }
     }
 
-    // MAIN
+    // MAIN.
     public static void main(String[] args) {
 
         int[][] penjualan = new int[5][7];
