@@ -1,7 +1,7 @@
 package Pertemuan14;
 
 public class Kafe25 {
-    // Fungsi Menu tanpa parameter.
+    // Fungsi Menu tanpa parameter
     public static void main(String[] args) {
         System.out.println("=== MENU RESTO KAFE ===");
         System.out.println("1. Kopi Hitam - Rp 15000");
