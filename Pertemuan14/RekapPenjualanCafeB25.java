@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class RekapPenjualanCafeB25 {
 
-    // MAIN
+    // MAIN.
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -20,14 +20,14 @@ public class RekapPenjualanCafeB25 {
         String[] menu = new String[jumlahMenu];
         int[][] data = new int[jumlahMenu][jumlahHari];
 
-        // Input nama menu
+        // Input nama menu.
         System.out.println("\nMasukkan nama setiap menu:");
         for (int i = 0; i < jumlahMenu; i++) {
             System.out.print("Menu ke-" + (i + 1) + ": ");
             menu[i] = sc.nextLine();
         }
 
-        // Input data penjualan
+        // Input data penjualan.
         for (int i = 0; i < jumlahMenu; i++) {
             System.out.println("Input penjualan untuk menu: " + menu[i]);
             for (int j = 0; j < jumlahHari; j++) {
@@ -36,7 +36,7 @@ public class RekapPenjualanCafeB25 {
             }
         }
 
-        // Menampilkan tabel
+        // Menampilkan tabel.
         System.out.println("\n=== DATA PENJUALAN ===");
         System.out.print("Menu/Hari\t");
         for (int h = 1; h <= jumlahHari; h++) System.out.print("H" + h + "\t");
@@ -50,7 +50,7 @@ public class RekapPenjualanCafeB25 {
             System.out.println();
         }
 
-        // Total tertinggi
+        // Total tertinggi.
         int maxTotal = 0;
         int index = 0;
 
@@ -66,7 +66,7 @@ public class RekapPenjualanCafeB25 {
 
         System.out.println("\nMenu penjualan tertinggi: " + menu[index] + " = " + maxTotal);
 
-        // Rata-rata
+        // Rata-rata.
         System.out.println("\nRata-rata tiap menu:");
         for (int i = 0; i < jumlahMenu; i++) {
             int tot = 0;
