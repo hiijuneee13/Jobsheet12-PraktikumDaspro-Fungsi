@@ -11,7 +11,7 @@ public class Kafee25 {
         }
 
         // Cek kode promo.
-        if (kodePromo.equals("DISKON")) {
+        if (kodePromo.equals("DISKON50")) {
             System.out.println("Kode promo berlaku! Anda mendapatkan diskon 50%.");
         } else if (kodePromo.equals("DISKON30")) {
             System.out.println("Kode promo berlaku! Anda mendapatkan diskon 30%.");
@@ -32,6 +32,6 @@ public class Kafee25 {
 
     public static void main(String[] args) {
         // Contoh pemanggilan.
-        Menu("Budi", true, "DISKON50");
+        Menu("Budi", true, "DISKON30");
     }
 }

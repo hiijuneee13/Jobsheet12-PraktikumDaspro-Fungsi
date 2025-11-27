@@ -3,12 +3,14 @@ package Pertemuan14;
 public class Kubus25 {
         // Menghitung volume kubus.
     public static int volumeKubus(int sisi) {
-        return sisi * sisi * sisi;
+        int volumeKubus = sisi * sisi * sisi;
+        return volumeKubus;
     }
 
     // Menghitung luas permukaan kubus.
     public static int luasPermukaanKubus(int sisi) {
-        return 6 * sisi * sisi;
+        int luasPermukaanKubus = 6 * sisi * sisi;
+        return luasPermukaanKubus;
     }
 
     public static void main(String[] args) {
