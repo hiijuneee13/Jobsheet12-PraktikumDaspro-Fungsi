@@ -75,7 +75,7 @@ public class hitungTotalHarga25 {
             }
         }
 
-        System.out.println("-------------------------------------");
+        System.out.println("------------------------------------");
         System.out.println("Total sebelum diskon: Rp " + totalKeseluruhan);
 
         System.out.print("Masukkan kode promo (DISKON50 / DISKON30 / -): ");
