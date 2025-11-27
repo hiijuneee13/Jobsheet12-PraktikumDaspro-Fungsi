@@ -19,6 +19,6 @@ public class PengunjungCafe25 {
         daftarPengunjung("Ali", "Budi", "Citra");
         daftarPengunjung("Andi"); 
         daftarPengunjung("Doni", "Eti", "Fahmi", "Galih");
-        daftarPengunjung();  // contoh tanpa argumen
+        daftarPengunjung();  // contoh tanpa argumen.
     }
 }
