@@ -1,12 +1,12 @@
 package Pertemuan14;
 
 public class Kubus25 {
-        // Menghitung volume kubus
+        // Menghitung volume kubus.
     public static int volumeKubus(int sisi) {
         return sisi * sisi * sisi;
     }
 
-    // Menghitung luas permukaan kubus
+    // Menghitung luas permukaan kubus.
     public static int luasPermukaanKubus(int sisi) {
         return 6 * sisi * sisi;
     }
