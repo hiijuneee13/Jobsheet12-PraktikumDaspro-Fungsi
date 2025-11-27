@@ -3,7 +3,7 @@ package Pertemuan14;
 import java.util.Scanner;
 
 public class HitungBalok25 {
-
+    // modifikasi fungsi hitungLuas dan hitungVolume
     static int hitungLuas(int pjg, int lb) {
     int Luas = pjg * lb;
     return Luas;
