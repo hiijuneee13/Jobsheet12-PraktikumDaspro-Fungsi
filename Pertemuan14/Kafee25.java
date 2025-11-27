@@ -11,10 +11,12 @@ public class Kafee25 {
         }
 
         // Cek kode promo.
-        if (kodePromo.equals("DISKON50")) {
+        if (kodePromo.equals("DISKON")) {
             System.out.println("Kode promo berlaku! Anda mendapatkan diskon 50%.");
         } else if (kodePromo.equals("DISKON30")) {
             System.out.println("Kode promo berlaku! Anda mendapatkan diskon 30%.");
+        } else {
+            System.out.println("kode invalid.");
         }
 
         System.out.println("=== MENU RESTO KAFE ===");

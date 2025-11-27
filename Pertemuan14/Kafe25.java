@@ -2,7 +2,7 @@ package Pertemuan14;
 
 public class Kafe25 {
     // Fungsi Menu tanpa parameter.
-    public static void Menu() {
+    public static void main(String[] args) {
         System.out.println("=== MENU RESTO KAFE ===");
         System.out.println("1. Kopi Hitam - Rp 15000");
         System.out.println("2. Cappucino - Rp 20000");
@@ -12,10 +12,5 @@ public class Kafe25 {
         System.out.println("6. Mie Goreng - Rp 18000");
         System.out.println("=======================");
         System.out.println("Silakan pilih menu yang Anda inginkan.");
-    }
-
-    public static void main(String[] args) {
-        // Panggil fungsi Menu dari main.
-        Menu();
     }
 }
