@@ -3,7 +3,7 @@ package Pertemuan14;
 import java.util.Scanner;
 
 public class hitungTotalHarga25 {
-
+    // Fungsi menampilkan menu
     public static void Menu() {
         System.out.println("=== MENU RESTO KAFE ===");
         System.out.println("1. Kopi Hitam - Rp 15000");
@@ -14,7 +14,7 @@ public class hitungTotalHarga25 {
         System.out.println("6. Mie Goreng - Rp 18000");
         System.out.println("=======================");
     }
-
+    // Fungsi hitung total harga 
     public static int hitungTotalHargaNoAbsen(int pilihanMenu, int banyakItem) {
 
         int[] hargaItems = {15000, 20000, 22000, 12000, 10000, 18000};
@@ -22,7 +22,7 @@ public class hitungTotalHarga25 {
         int hargaTotal = hargaItems[pilihanMenu - 1] * banyakItem;
         return hargaTotal;
     }
-
+    // Fungsi hitung total harga dengan kode promo
     public static int hitungTotalHargaPromo(int totalHarga, String kodePromo) {
 
         if (kodePromo.equalsIgnoreCase("DISKON50")) {
@@ -43,7 +43,7 @@ public class hitungTotalHarga25 {
             return totalHarga;
         }
     }
-
+    // Fungsi main
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -74,15 +74,18 @@ public class hitungTotalHarga25 {
                 lanjut = false;
             }
         }
-
+        // Menampilkan total sebelum diskon
         System.out.println("-------------------------------------");
         System.out.println("Total sebelum diskon: Rp " + totalKeseluruhan);
 
+        // Meminta kode promo
         System.out.print("Masukkan kode promo (DISKON50 / DISKON30 / -): ");
         String kode = sc.next();
 
+        // Menghitung total akhir setelah diskon
         int totalAkhir = hitungTotalHargaPromo(totalKeseluruhan, kode);
 
+        // Menampilkan total akhir
         System.out.println("-------------------------------------");
         System.out.println("TOTAL YANG HARUS DIBAYAR: Rp " + totalAkhir);
         System.out.println("Terima kasih telah memesan!");
