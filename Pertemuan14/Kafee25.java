@@ -2,7 +2,7 @@ package Pertemuan14;
 
 public class Kafee25 {
 
-    // Fungsi Menu dengan tambahan parameter kodePromo.
+    // Fungsi Menu dengan tambahan parameter kodePromo
    public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
         System.out.println("Selamat datang, " + namaPelanggan + "!");
 
