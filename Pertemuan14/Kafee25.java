@@ -2,7 +2,7 @@ package Pertemuan14;
 
 public class Kafee25 {
 
-    // Fungsi Menu dengan tambahan parameter kodePromo
+    // Fungsi Menu dengan tambahan parameter kodePromo.
    public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
         System.out.println("Selamat datang, " + namaPelanggan + "!");
 
@@ -10,7 +10,7 @@ public class Kafee25 {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
         }
 
-        // Cek kode promo
+        // Cek kode promo.
         if (kodePromo.equals("DISKON50")) {
             System.out.println("Kode promo berlaku! Anda mendapatkan diskon 50%.");
         } else if (kodePromo.equals("DISKON30")) {
@@ -29,7 +29,7 @@ public class Kafee25 {
     }
 
     public static void main(String[] args) {
-        // Contoh pemanggilan
+        // Contoh pemanggilan.
         Menu("Budi", true, "DISKON50");
     }
 }
